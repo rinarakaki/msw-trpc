@@ -36,7 +36,7 @@ jobs:
       - run: pnpm test
 
       - run: |
-          cd packages/my-package
+          cd packages/msw-trpc
           pnpm build
           pnpm publish
         env:
